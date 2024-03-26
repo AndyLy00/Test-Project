@@ -11858,14 +11858,21 @@ textarea.form-control-lg {
   font-weight: 750;
 }
 
-.container--prices {
+.container {
   width: 100%;
-  max-width: 1632px;
   padding: 16px;
   display: flex;
   flex-direction: column;
   justify-self: center;
   gap: 50px;
+}
+
+.type1 {
+  max-width: 1632px;
+}
+
+.type2 {
+  max-width: 1380px;
 }
 
 /*# sourceMappingURL=App.css.map */
