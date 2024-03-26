@@ -11848,4 +11848,24 @@ textarea.form-control-lg {
   min-height: 100vh;
 }
 
+.containers__gap {
+  gap: 100px;
+}
+
+.bigTitle {
+  color: #9E1651;
+  font-size: 70px;
+  font-weight: 750;
+}
+
+.container--prices {
+  width: 100%;
+  max-width: 1632px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: 50px;
+}
+
 /*# sourceMappingURL=App.css.map */

@@ -1,0 +1,62 @@
+.pricingBlock {
+  border-radius: 25px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: min-content;
+}
+.pricingBlock .pricingBlock__image {
+  width: 450px;
+  height: 340px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.pricingBlock .pricingBlock__info {
+  padding: 30px 34px 60px 34px;
+}
+.pricingBlock .pricingBlock__info .pricingBlock__title {
+  font-size: 30px;
+  font-weight: 450;
+  text-align: center;
+  color: #2C2C2C;
+}
+.pricingBlock .pricingBlock__info .pricingBlock__text {
+  padding: 40px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.pricingBlock .pricingBlock__info .pricingBlock__text .pricingBlock__element {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+  font-weight: 450;
+}
+.pricingBlock .pricingBlock__info .buttonBlock {
+  display: flex;
+  justify-content: center;
+}
+.pricingBlock .pricingBlock__info .buttonBlock .fitContent {
+  position: relative;
+  width: fit-content;
+}
+.pricingBlock .pricingBlock__info .buttonBlock .fitContent .buttonShadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: solid 1px;
+  border-radius: 20px;
+  top: -10px;
+  left: -10px;
+}
+.pricingBlock .pricingBlock__info .buttonBlock .fitContent .pricingBlock__button {
+  font-size: 36px !important;
+  font-weight: 750 !important;
+  color: white !important;
+  align-self: center !important;
+  border-radius: 20px;
+  padding: 25px 55px;
+  border: none;
+}
+
+/*# sourceMappingURL=PricingBlock.css.map */
