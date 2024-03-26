@@ -1,18 +1,21 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
 .app {
   min-height: 100vh;
 }
+
 .containers__gap {
   gap: 100px;
 }
+
 .bigTitle {
   color: #9E1651;
   font-size: 70px;
   font-weight: 750;
 }
-.container--prices {
+
+.container {
   width: 100%;
-  max-width: 1632px;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -20,4 +23,10 @@
   gap: 50px;
 }
 
+.type1 {
+  max-width: 1632px;
+}
 
+.type2 {
+  max-width: 1380px
+}

@@ -6,7 +6,7 @@ import img2 from '../assets/price2.svg';
 import img3 from '../assets/price3.svg';
 function Pricing() {
     return (
-        <div className="container--prices">
+        <div className="container type1">
             <div className="bigTitle align-self-center">Цены на обучение</div>
             <div className="d-flex justify-content-between gap-2">
                 <PricingBlock color="#FFF1F7" img={img1} price={8300} btn_color="#E81772" lessons={2} minutes={60} students={6} title="Английский для
