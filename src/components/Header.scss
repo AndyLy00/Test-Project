@@ -1,5 +1,7 @@
 $text: #464646;
 .header {
+  font-size: 24px;
+  font-weight: 450;
   position: fixed;
   top: 0;
   display: flex;
@@ -7,6 +9,10 @@ $text: #464646;
   align-items: center;
   width: 100%;
   height: 80px;
+  z-index: 1000;
+  button {
+    font-size: 27px;
+  }
 }
 .nav__button {
   color: $text !important;
@@ -14,7 +20,7 @@ $text: #464646;
   cursor: pointer;
 }
 .nav__button--active {
-  font-weight: bold;
+  font-weight: 600;
 }
 .nav__button:hover {
   color: black !important;
