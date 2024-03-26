@@ -103,11 +103,6 @@
   gap: 47px;
   z-index: 100;
 }
-.textPosition .mainPage__title {
-  font-size: 70px;
-  font-weight: 750;
-  color: #9E1651;
-}
 .textPosition .mainPage__description {
   width: 100%;
   max-width: 600px;

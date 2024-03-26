@@ -11,7 +11,7 @@ function MainPage() {
         <div className="mainPage d-flex">
             <div className="mainPage__text d-flex justify-content-center align-items-center">
                 <div className="textPosition">
-                    <div className="mainPage__title">
+                    <div className="bigTitle">
                         Lorem ipsum dolor sit amet, consectetur
                     </div>
                     <div className="mainPage__description">
