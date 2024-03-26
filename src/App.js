@@ -3,6 +3,7 @@ import "./App.scss"
 import MainPage from "./components/MainPage";
 import Pricing from "./components/Pricing";
 import Review from "./components/Review";
+import Questions from "./components/Questions";
 function App() {
     return (
         <div className="app d-flex flex-column justify-content-center">
@@ -11,6 +12,7 @@ function App() {
                 <MainPage/>
                 <Pricing/>
                 <Review/>
+                <Questions/>
             </div>
         </div>
     );
