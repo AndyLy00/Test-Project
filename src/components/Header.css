@@ -1,4 +1,6 @@
 .header {
+  font-size: 24px;
+  font-weight: 450;
   position: fixed;
   top: 0;
   display: flex;
@@ -6,6 +8,10 @@
   align-items: center;
   width: 100%;
   height: 80px;
+  z-index: 1000;
+}
+.header button {
+  font-size: 27px;
 }
 
 .nav__button {
@@ -15,7 +21,7 @@
 }
 
 .nav__button--active {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .nav__button:hover {
