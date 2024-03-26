@@ -98,6 +98,7 @@
   width: 100%;
   max-width: 720px;
   margin-right: -170px;
+  margin-top: -150px;
   display: flex;
   flex-direction: column;
   gap: 47px;
@@ -109,6 +110,9 @@
   color: black;
   font-size: 36px;
   font-weight: 450;
+}
+.textPosition .logo {
+  max-width: 300px;
 }
 
 /*# sourceMappingURL=MainPage.css.map */
