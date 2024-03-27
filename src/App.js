@@ -5,6 +5,7 @@ import Pricing from "./components/Pricing";
 import Review from "./components/Review";
 import Questions from "./components/Questions";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 function App() {
     return (
         <div className="app d-flex flex-column justify-content-center">
@@ -15,6 +16,7 @@ function App() {
                 <Review/>
                 <Questions/>
                 <Blog/>
+                <Footer/>
             </div>
         </div>
     );
