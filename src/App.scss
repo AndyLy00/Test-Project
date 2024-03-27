@@ -12,6 +12,7 @@
   color: #9E1651;
   font-size: 70px;
   font-weight: 750;
+  text-align: center;
 }
 
 .container {
@@ -38,4 +39,12 @@
 }
 .textDisplayNone {
   display: none;
+}
+@media (max-width: 1090px) {
+  .bigTitle {
+    font-size: 28px;
+  }
+  .footerDisplay {
+    display: none !important;
+  }
 }

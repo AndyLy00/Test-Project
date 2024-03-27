@@ -11856,6 +11856,7 @@ textarea.form-control-lg {
   color: #9E1651;
   font-size: 70px;
   font-weight: 750;
+  text-align: center;
 }
 
 .container {
@@ -11885,6 +11886,15 @@ textarea.form-control-lg {
 
 .textDisplayNone {
   display: none;
+}
+
+@media (max-width: 1090px) {
+  .bigTitle {
+    font-size: 28px;
+  }
+  .footerDisplay {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */

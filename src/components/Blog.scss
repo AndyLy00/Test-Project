@@ -1,0 +1,12 @@
+.blog__block--Mobile{
+  display: none !important;
+}
+@media (max-width: 1090px) {
+  .blog__block{
+    display: none !important;
+  }
+  .blog__block--Mobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+}

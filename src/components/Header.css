@@ -30,4 +30,34 @@
   text-decoration: underline !important;
 }
 
+.mobileButton {
+  display: none;
+  width: 25px;
+  height: 14px;
+}
+
+.headerNav {
+  justify-content: center;
+}
+
+@media (max-width: 1090px) {
+  .header a, .header button {
+    display: none;
+  }
+  .nav__button {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .mobileButton {
+    display: block;
+    justify-self: end;
+  }
+  .headerNav {
+    justify-content: end !important;
+    padding-right: 50px;
+  }
+}
+
 /*# sourceMappingURL=Header.css.map */

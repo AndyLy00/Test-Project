@@ -12,8 +12,9 @@ function Review() {
                 <div className="review__block">
                     <div className="review__element">
                         <img src={arrow} className="arrow arrow--left"></img>
-                        <div className="review__info">
-                            <img src={avatar} className="avatar"></img>
+                        <div className="review__info position-relative">
+                                <img src={avatar} className="review__avatar"></img>
+                                <div className="bigTitle review__decoration--Mobile">"</div>
                             <div className="review__text">
                                 <div className="name">Vladimir Svetchuk</div>
                                 <div className="job" style={{marginTop: 10}}>Student</div>
@@ -23,7 +24,7 @@ function Review() {
                         </div>
                         <img src={arrow} className="arrow arrow--right"></img>
                     </div>
-                    <div className="d-flex gap-2 justify-content-center" style={{marginTop: 80}}>
+                    <div className="review__circles d-flex gap-2 justify-content-center">
                         <div className={`circle ${circleActive === "1" ? "circle--active" : ""}`} onClick={() => setCircleActive("1")}></div>
                         <div className={`circle ${circleActive === "2" ? "circle--active" : ""}`} onClick={() => setCircleActive("2")}></div>
                         <div className={`circle ${circleActive === "3" ? "circle--active" : ""}`} onClick={() => setCircleActive("3")}></div>

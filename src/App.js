@@ -16,7 +16,9 @@ function App() {
                 <Review/>
                 <Questions/>
                 <Blog/>
-                <Footer/>
+                <div className="footerDisplay">
+                    <Footer/>
+                </div>
             </div>
         </div>
     );

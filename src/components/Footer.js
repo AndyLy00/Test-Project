@@ -7,13 +7,13 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer__top d-flex justify-content-center">
-                <div className="footer__info type1 d-flex justify-content-between w-100 gap-2">
+                <div className="footer__info type1 d-flex justify-content-between w-100 gap-4">
                     <div className="footer__logo">
                         <img src={logo}/>
                     </div>
                     <div className="footer__text d-flex justify-content-end">
                         <div className="footer__position__text d-flex flex-column">
-                            <div className="footer__nav d-flex gap-4">
+                            <div className="footer__nav d-flex gap-4 align-items-center">
                                 <Button href="#home" variant="link" className="nav__button">Home</Button>
                                 <Button href="#prices" variant="link" className="nav__button">Prices</Button>
                                 <Button href="#blog" variant="link" className="nav__button">Blog</Button>
