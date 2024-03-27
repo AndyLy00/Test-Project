@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import "./Header.scss";
+import menu from "../assets/menu.svg"
 
 function Header() {
     const [navActive, setNavActive] = useState("home");
@@ -19,7 +20,7 @@ function Header() {
 
     return (
         <div className={`header ${scrollPosition}`}>
-            <div className="w-100 d-flex justify-content-center align-items-center gap-4" style={{maxWidth: 1600}}>
+            <div className="headerNav w-100 d-flex align-items-center gap-4" style={{maxWidth: 1600}}>
                 <Button href="#home" variant="link" className={`${navActive === "home" ? "" : "nav__button"}`} onClick={() => setNavActive("home")}>Home</Button>
                 <Button href="#prices" variant="link" className={`${navActive === "prices" ? "" : "nav__button"}`} onClick={() => setNavActive("prices")}>Prices</Button>
                 <Button href="#blog" variant="link" className={`${navActive === "blog" ? "" : "nav__button"}`} onClick={() => setNavActive("blog")}>Blog</Button>
@@ -28,11 +29,12 @@ function Header() {
                 <Button variant="outline-primary">Записаться на урок</Button>
                 <div className="d-flex">
                     <div className={`nav__button ${langActive === "ru" ? "nav__button--active" : ""}`} onClick={() => setLangActive("ru")}>Ru</div>
-                    <div>/</div>
+                    <div className="line">/</div>
                     <div className={`nav__button ${langActive === "en" ? "nav__button--active" : ""}`} onClick={() => setLangActive("en")}>En</div>
-                    <div>/</div>
+                    <div className="line">/</div>
                     <div className={`nav__button ${langActive === "fr" ? "nav__button--active" : ""}`} onClick={() => setLangActive("fr")}>Fr</div>
                 </div>
+                <img src={menu} className="mobileButton"/>
             </div>
         </div>
     );

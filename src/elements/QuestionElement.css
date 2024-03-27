@@ -13,9 +13,10 @@
 }
 
 .questionElement__text {
+  display: table-cell;
   white-space: nowrap;
+  text-overflow: ellipsis;
   overflow: hidden;
-  width: 100%;
   font-size: 30px;
   font-weight: 400;
 }
@@ -28,6 +29,33 @@
 
 .questionDescription {
   padding: 10px 50px 10px 70px;
+}
+
+.questionElement__text__ParentWidth {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+@media (max-width: 1090px) {
+  .questionElement {
+    padding: 20px;
+  }
+  .questionDescription {
+    padding: 20px;
+  }
+  .questionElement__circle {
+    width: 9px !important;
+    height: 9px !important;
+  }
+  .questionElement__text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .questionElement__plus {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 /*# sourceMappingURL=QuestionElement.css.map */

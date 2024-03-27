@@ -1,0 +1,13 @@
+.prices__mobile {
+  display: none !important;
+  flex-direction: column;
+  width: 100%;
+}
+@media (max-width: 1400px) {
+  .prices__mobile {
+    display: flex!important;
+  }
+  .prices__desktop {
+    display: none!important;
+  }
+}

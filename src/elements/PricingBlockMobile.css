@@ -1,0 +1,48 @@
+.pricingBlock--Mobile {
+  border-radius: 25px;
+  display: block;
+  width: 100%;
+  padding: 15px 24px;
+}
+
+.pricingBlock__image--Mobile {
+  width: 80px;
+  height: 68px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.pricingBlock__price--Mobile {
+  font-size: 24px;
+  font-weight: 750;
+}
+
+.pricingBlock__title--Mobile {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #2C2C2C;
+}
+
+.buttonBlock--Mobile {
+  display: flex;
+  justify-content: center;
+  cursor: pointer !important;
+}
+.buttonBlock--Mobile .pricingBlock__button--Mobile {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: white !important;
+  align-self: center !important;
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  z-index: 5;
+}
+
+.buttonBlock--Mobile:hover .pricingBlock__button--Mobile {
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset !important;
+}
+
+/*# sourceMappingURL=PricingBlockMobile.css.map */

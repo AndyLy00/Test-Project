@@ -13,11 +13,18 @@ function MainPage() {
             <div className="mainPage__text d-flex justify-content-center align-items-center">
                 <div className="textPosition">
                     <img src={logo} className="logo"/>
-                    <div className="bigTitle">
+                    <div className="bigTitle text-start">
                         Lorem ipsum dolor sit amet, consectetur
                     </div>
                     <div className="mainPage__description">
                         Consectetur adipiscing elit integer bibendum
+                    </div>
+                    <div className="mainPage__mobileButton position-relative">
+                        <img src={lang} className="lang2"/>
+                        <Button variant="primary" type="submit" className="mainPage__text__button">
+                            Записаться
+                        </Button>
+                        <img src={hello} className="hello2"/>
                     </div>
                 </div>
             </div>

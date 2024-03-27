@@ -1,7 +1,7 @@
 .review__block {
   background-color: #FFF1F7;
   border-radius: 50px;
-  max-width: 100%;
+  width: 100%;
   height: max-content;
   padding: 90px 70px 30px 70px;
 }
@@ -65,6 +65,59 @@
   width: 100%;
   height: 100px;
   margin-top: -50px;
+}
+
+.review__circles {
+  margin-top: 80px;
+}
+
+.review__decoration--Mobile {
+  display: none;
+}
+
+@media (max-width: 1090px) {
+  .review__block {
+    padding: 20px 24px;
+  }
+  .review__block .review__element .review__info {
+    padding: 20px;
+  }
+  .arrow {
+    display: none;
+  }
+  .review__info {
+    gap: 10px !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .review__decoration {
+    display: none;
+  }
+  .name, .job {
+    text-align: center;
+    margin: 0 !important;
+  }
+  .description {
+    margin-top: 15px;
+  }
+  .review__avatar {
+    width: 65px;
+    height: 65px;
+  }
+  .review__circles {
+    margin-top: 20px;
+  }
+  .review__decoration--Mobile {
+    position: absolute;
+    display: block;
+    right: 40px;
+    font-size: 64px;
+    font-weight: 400;
+  }
+  .circle {
+    width: 9px;
+    height: 9px;
+  }
 }
 
 /*# sourceMappingURL=Review.css.map */

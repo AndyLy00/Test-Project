@@ -33,4 +33,54 @@
   color: #797689;
 }
 
+.blog__circles {
+  display: none;
+}
+
+.circleBlog {
+  width: 9px;
+  height: 9px;
+  border-radius: 50px;
+  background-color: #90B7FA;
+  opacity: 65%;
+  cursor: pointer;
+}
+
+.circleBlog--active {
+  background-color: #4D8BF4;
+  opacity: 100%;
+}
+
+.blog__circles {
+  display: none !important;
+}
+
+@media (max-width: 1090px) {
+  .blogBlock {
+    max-width: 100%;
+  }
+  .blog__circles {
+    display: flex !important;
+    margin-bottom: 20px;
+  }
+  .blogBlock__type, .blogBlock__date {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .blogBlock__title {
+    font-size: 24px;
+    font-weight: 450;
+  }
+  .blogBlock__description {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .blogBlock {
+    padding: 20px;
+  }
+  .blogBlock .blogBlock__info {
+    padding: 25px 0 30px 0;
+  }
+}
+
 /*# sourceMappingURL=BlogBlock.css.map */
