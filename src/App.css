@@ -11879,4 +11879,12 @@ textarea.form-control-lg {
   max-width: 1300px;
 }
 
+.newBackground {
+  background-color: white;
+}
+
+.textDisplayNone {
+  display: none;
+}
+
 /*# sourceMappingURL=App.css.map */

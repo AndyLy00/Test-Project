@@ -10,11 +10,12 @@
   height: 80px;
   z-index: 1000;
 }
-.header button {
+.header a, .header button {
   font-size: 27px;
 }
 
 .nav__button {
+  font-size: 24px;
   color: #464646 !important;
   text-decoration: none !important;
   cursor: pointer;

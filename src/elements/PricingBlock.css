@@ -36,6 +36,7 @@
 .pricingBlock .pricingBlock__info .buttonBlock {
   display: flex;
   justify-content: center;
+  cursor: pointer !important;
 }
 .pricingBlock .pricingBlock__info .buttonBlock .fitContent {
   position: relative;
@@ -58,6 +59,10 @@
   border-radius: 20px;
   padding: 25px 55px;
   border: none;
+  z-index: 5;
+}
+.pricingBlock .pricingBlock__info .buttonBlock:hover .pricingBlock__button {
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset !important;
 }
 
 /*# sourceMappingURL=PricingBlock.css.map */

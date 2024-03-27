@@ -35,7 +35,7 @@ const PricingBlock = ({
                 <div className="buttonBlock">
                     <div className="fitContent">
                         <div className="buttonShadow" style={{borderColor: btn_color}}></div>
-                        <Button variant="primary" className="pricingBlock__button" style={{backgroundColor: btn_color}}>{price} Р/мес</Button>
+                        <Button variant="primary" className="pricingBlock__button pe-auto" style={{backgroundColor: btn_color}}>{price} Р/мес</Button>
                     </div>
                 </div>
             </div>
