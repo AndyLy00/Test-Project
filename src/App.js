@@ -4,6 +4,7 @@ import MainPage from "./components/MainPage";
 import Pricing from "./components/Pricing";
 import Review from "./components/Review";
 import Questions from "./components/Questions";
+import Blog from "./components/Blog";
 function App() {
     return (
         <div className="app d-flex flex-column justify-content-center">
@@ -13,6 +14,7 @@ function App() {
                 <Pricing/>
                 <Review/>
                 <Questions/>
+                <Blog/>
             </div>
         </div>
     );
