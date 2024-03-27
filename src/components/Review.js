@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Review.scss";
 import arrow from "../assets/arrow.svg";
 import avatar from "../assets/avatar.svg";
 import message from "../assets/message2.png";
 
 function Review() {
+    const [circleActive, setCircleActive] = useState("1");
     return (
-            <div className="container type2">
+            <div className="container type2" id="reviews">
                 <div className="bigTitle align-self-center">Отзывы</div>
                 <div className="review__block">
                     <div className="review__element">
@@ -23,9 +24,9 @@ function Review() {
                         <img src={arrow} className="arrow arrow--right"></img>
                     </div>
                     <div className="d-flex gap-2 justify-content-center" style={{marginTop: 80}}>
-                        <div className="circle circle--active"></div>
-                        <div className="circle"></div>
-                        <div className="circle"></div>
+                        <div className={`circle ${circleActive === "1" ? "circle--active" : ""}`} onClick={() => setCircleActive("1")}></div>
+                        <div className={`circle ${circleActive === "2" ? "circle--active" : ""}`} onClick={() => setCircleActive("2")}></div>
+                        <div className={`circle ${circleActive === "3" ? "circle--active" : ""}`} onClick={() => setCircleActive("3")}></div>
                     </div>
                 </div>
                 <img className="message" src={message}/>

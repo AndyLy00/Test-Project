@@ -26,4 +26,8 @@
   cursor: pointer;
 }
 
+.questionDescription {
+  padding: 10px 50px 10px 70px;
+}
+
 /*# sourceMappingURL=QuestionElement.css.map */

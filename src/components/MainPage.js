@@ -9,7 +9,7 @@ import logo from '../assets/logo.svg';
 
 function MainPage() {
     return (
-        <div className="mainPage d-flex">
+        <div className="mainPage d-flex" id="home">
             <div className="mainPage__text d-flex justify-content-center align-items-center">
                 <div className="textPosition">
                     <img src={logo} className="logo"/>
