@@ -1,5 +1,7 @@
 $my-red: #9E1651;
 $my-white: #ffffff;
+$my-pink: #FFB7D6;
+$my-blue: #30439F;
 $theme-colors: (
         "primary": #84AFF9,
         "my-red": #9E1651,
@@ -39,6 +41,50 @@ $theme-colors: (
 }
 .newBackground {
   background-color: $my-white;
+}
+.carousel {
+}
+.carousel-indicators {
+
+  button {
+    width: 17px !important;
+    height: 17px !important;
+    background-color: $my-pink !important;
+    cursor: pointer !important;
+  }
+}
+.carousel-item {
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  width: 100%;
+  height: max-content;
+  padding: 45px 70px;
+  margin-bottom: 80px;
+}
+.carousel-indicators [data-bs-target] {
+  border: none !important;
+  border-radius: 50px !important;
+}
+.carousel-indicators .active {
+  background-color: $my-red !important;
+}
+.carousel-control-prev {
+  margin-left: -140px !important;
+}
+.carousel-control-prev-icon {
+  background-image: url("assets/arrow.svg") !important;
+}
+.carousel-control-next {
+  margin-right: -140px !important;
+}
+.carousel-control-next-icon {
+  background-image: url("assets/arrow.svg") !important;
+  rotate: 180deg !important;
+}
+@media (max-width: 1090px) {
+  .carousel-control-prev, .carousel-control-next {
+    display: none !important;
+  }
 }
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap/scss/functions";
