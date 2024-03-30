@@ -1,18 +1,9 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
-
 .app {
   min-height: 100vh;
 }
 
 .containers__gap {
   gap: 100px;
-}
-
-.bigTitle {
-  color: #9E1651;
-  font-size: 70px;
-  font-weight: 750;
-  text-align: center;
 }
 
 .container {
@@ -24,19 +15,6 @@
   gap: 50px;
 }
 
-.type1 {
-  max-width: 1600px;
-}
-
-.type2 {
-  max-width: 1400px;
-}
-.type3{
-  max-width: 1300px;
-}
-.newBackground {
-  background-color: white;
-}
 .textDisplayNone {
   display: none;
 }

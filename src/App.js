@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import "./App.scss"
+import "./App.scss";
 import MainPage from "./components/MainPage";
 import Pricing from "./components/Pricing";
 import Review from "./components/Review";

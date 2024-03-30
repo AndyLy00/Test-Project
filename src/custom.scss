@@ -1,11 +1,46 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+$my-red: #9E1651;
+$my-white: #ffffff;
 $theme-colors: (
-"primary":    #464646,
-"secondary":  $secondary,
-"success":    $success,
-"info":       $info,
-"warning":    $warning,
-"danger":     $danger,
-"light":      $light,
-"dark":       $dark
+        "primary": #84AFF9,
+        "my-red": #9E1651,
 );
+.btn-primary {
+  color: white !important;
+  padding: 30px !important;
+}
+.btn-outline-primary:hover {
+  color: white !important;
+}
+.form-control {
+  font-size: 24px !important;
+  font-weight: 450 !important;
+  background-color: #F0F6FF !important;
+  cursor: pointer !important;
+  padding: 31px 35px !important;
+  border: none !important;
+  border-radius: 15px !important;
+}
+.bigTitle {
+  color: $my-red;
+  font-size: 70px;
+  font-weight: 750;
+  text-align: center;
+}
+
+.type1 {
+  max-width: 1600px;
+}
+
+.type2 {
+  max-width: 1400px;
+}
+.type3{
+  max-width: 1300px;
+}
+.newBackground {
+  background-color: $my-white;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";

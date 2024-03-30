@@ -1,6 +1,5 @@
 import React from "react";
 import "./PricingBlockMobile.scss";
-import verify from "../assets/verified.svg";
 import Button from "react-bootstrap/Button";
 
 const PricingBlock = ({
@@ -17,7 +16,7 @@ const PricingBlock = ({
     return (
         <div className="pricingBlock--Mobile gap-4" style={{backgroundColor: color}}>
             <div className="d-flex justify-content-between align-items-center w-100">
-                <img src={img} className="pricingBlock__image--Mobile"/>
+                <img alt="" src={img} className="pricingBlock__image--Mobile"/>
                 <div className="pricingBlock__price--Mobile" style={{color: text_color}}>{price} Р/мес</div>
             </div>
             <div className="pricingBlock__info--Mobile w-100 d-flex flex-column gap-4">
