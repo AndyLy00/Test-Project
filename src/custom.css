@@ -41,6 +41,53 @@
   background-color: #ffffff;
 }
 
+.carousel-indicators button {
+  width: 17px !important;
+  height: 17px !important;
+  background-color: #FFB7D6 !important;
+  cursor: pointer !important;
+}
+
+.carousel-item {
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  width: 100%;
+  height: max-content;
+  padding: 45px 70px;
+  margin-bottom: 80px;
+}
+
+.carousel-indicators [data-bs-target] {
+  border: none !important;
+  border-radius: 50px !important;
+}
+
+.carousel-indicators .active {
+  background-color: #9E1651 !important;
+}
+
+.carousel-control-prev {
+  margin-left: -140px !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("assets/arrow.svg") !important;
+}
+
+.carousel-control-next {
+  margin-right: -140px !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("assets/arrow.svg") !important;
+  rotate: 180deg !important;
+}
+
+@media (max-width: 1090px) {
+  .carousel-control-prev, .carousel-control-next {
+    display: none !important;
+  }
+}
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
