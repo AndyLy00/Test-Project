@@ -83,9 +83,47 @@
   rotate: 180deg !important;
 }
 
+.accordion {
+  display: grid;
+  gap: 30px;
+}
+
+.accordion-item {
+  border: none !important;
+}
+.accordion-item button {
+  border: none !important;
+  background-color: #E5F0FF !important;
+  padding: 28px 50px;
+  border-radius: 15px !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  color: #2C2C2C !important;
+}
+.accordion-item .accordion-body {
+  border: none !important;
+  background-color: #E5F0FF !important;
+  border-radius: 0 0 15px 15px !important;
+  padding: 28px 50px;
+  margin-top: -10px;
+}
+
+.accordion-button::after {
+  background-image: url("assets/plus.svg") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("assets/plus.svg") !important;
+  rotate: 45deg;
+}
+
 @media (max-width: 1090px) {
   .carousel-control-prev, .carousel-control-next {
     display: none !important;
+  }
+  .accordion-item button {
+    font-size: 18px !important;
+    font-weight: 400 !important;
   }
 }
 /*!

@@ -1,6 +1,11 @@
-
+.accordion__question {
+  margin: 0 50px;
+}
 @media (max-width: 1090px) {
   .questions__block {
     gap: 8px !important;
+  }
+  .accordion__question {
+    margin: 0 20px;
   }
 }

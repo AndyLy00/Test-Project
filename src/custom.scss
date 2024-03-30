@@ -2,6 +2,8 @@ $my-red: #9E1651;
 $my-white: #ffffff;
 $my-pink: #FFB7D6;
 $my-blue: #30439F;
+$my-light-blue: #E5F0FF;
+$my-text-color: #2C2C2C;
 $theme-colors: (
         "primary": #84AFF9,
         "my-red": #9E1651,
@@ -10,9 +12,11 @@ $theme-colors: (
   color: white !important;
   padding: 30px !important;
 }
+
 .btn-outline-primary:hover {
   color: white !important;
 }
+
 .form-control {
   font-size: 24px !important;
   font-weight: 450 !important;
@@ -22,6 +26,7 @@ $theme-colors: (
   border: none !important;
   border-radius: 15px !important;
 }
+
 .bigTitle {
   color: $my-red;
   font-size: 70px;
@@ -36,14 +41,18 @@ $theme-colors: (
 .type2 {
   max-width: 1400px;
 }
-.type3{
+
+.type3 {
   max-width: 1300px;
 }
+
 .newBackground {
   background-color: $my-white;
 }
+
 .carousel {
 }
+
 .carousel-indicators {
 
   button {
@@ -53,6 +62,7 @@ $theme-colors: (
     cursor: pointer !important;
   }
 }
+
 .carousel-item {
   background-color: #FFFFFF;
   border-radius: 50px;
@@ -61,31 +71,75 @@ $theme-colors: (
   padding: 45px 70px;
   margin-bottom: 80px;
 }
+
 .carousel-indicators [data-bs-target] {
   border: none !important;
   border-radius: 50px !important;
 }
+
 .carousel-indicators .active {
   background-color: $my-red !important;
 }
+
 .carousel-control-prev {
   margin-left: -140px !important;
 }
+
 .carousel-control-prev-icon {
   background-image: url("assets/arrow.svg") !important;
 }
+
 .carousel-control-next {
   margin-right: -140px !important;
 }
+
 .carousel-control-next-icon {
   background-image: url("assets/arrow.svg") !important;
   rotate: 180deg !important;
 }
+
+.accordion {
+  display: grid;
+  gap: 30px;
+}
+
+.accordion-item {
+  border: none !important;
+  button {
+    border: none !important;
+    background-color: $my-light-blue !important;
+    padding: 28px 50px;
+    border-radius: 15px !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    color: $my-text-color !important;
+  }
+  .accordion-body {
+    border: none !important;
+    background-color: $my-light-blue !important;
+    border-radius: 0 0 15px 15px !important;
+    padding: 28px 50px;
+    margin-top: -10px;
+  }
+}
+.accordion-button::after {
+  background-image: url("assets/plus.svg") !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("assets/plus.svg") !important;
+  rotate: 45deg;
+}
+
 @media (max-width: 1090px) {
   .carousel-control-prev, .carousel-control-next {
     display: none !important;
   }
+  .accordion-item button {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+  }
 }
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
