@@ -35,10 +35,14 @@ $text: #464646;
 .headerNav {
   justify-content: center;
 }
+.mobileActive {
+  color: #84AFF9;
+  text-decoration: underline;
+}
 
 @media (max-width: 1090px) {
 .header {
-  a, button {
+  .hide, button {
     display: none;
   }
 }
@@ -51,6 +55,12 @@ $text: #464646;
   .mobileButton {
     display: block;
     justify-self: end;
+  }
+  #navbarScrollingDropdown {
+    display: block;
+    a {
+      display: block !important;
+    }
   }
   .headerNav {
     justify-content: end !important;

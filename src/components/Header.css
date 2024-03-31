@@ -40,8 +40,13 @@
   justify-content: center;
 }
 
+.mobileActive {
+  color: #84AFF9;
+  text-decoration: underline;
+}
+
 @media (max-width: 1090px) {
-  .header a, .header button {
+  .header .hide, .header button {
     display: none;
   }
   .nav__button {
@@ -53,6 +58,12 @@
   .mobileButton {
     display: block;
     justify-self: end;
+  }
+  #navbarScrollingDropdown {
+    display: block;
+  }
+  #navbarScrollingDropdown a {
+    display: block !important;
   }
   .headerNav {
     justify-content: end !important;
