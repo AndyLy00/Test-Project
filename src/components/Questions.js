@@ -10,7 +10,7 @@ function Questions() {
         { id: 4, question: 'Lorem ipsum dolor sit amet, consectetur adipiscing', answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu semper justo. Etiam venenatis cursus vulputate. Duis sollicitudin aliquam metus, vel ullamcorper arcu vulputateLorem ipsum dolor sit amet, consectetur  elit."},
     ];
     return (
-        <div className="container type3" id="questions">
+        <div className="my_container type3" id="questions">
             <div className="bigTitle align-self-center">Часто задаваемые вопросы</div>
             <div className="questions__block d-grid gap-5">
                     <Accordion>

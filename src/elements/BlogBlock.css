@@ -39,8 +39,8 @@
 }
 
 .circleBlog {
-  width: 9px;
-  height: 9px;
+  width: 15px;
+  height: 15px;
   border-radius: 50px;
   background-color: #90B7FA;
   opacity: 65%;
@@ -81,6 +81,9 @@
   }
   .blogBlock .blogBlock__info {
     padding: 25px 0 30px 0;
+  }
+  .nonActive {
+    display: none;
   }
 }
 

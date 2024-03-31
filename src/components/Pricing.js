@@ -12,7 +12,7 @@ function Pricing() {
         { id: 3, color: "#FFF1F7", mobile_text_color: "#F867A6", img: img3, price: 7400, btn_color: "#E81772", lessons: 2, minutes: 60, students: 6, title: "Английский для детей (1-8 классов)"},
         ];
     return (
-        <div className="container type1" id="prices">
+        <div className="my_container type1" id="prices">
             <div className="bigTitle align-self-center">Цены на обучение</div>
             <div className="prices__desktop d-flex justify-content-between gap-4 align-items-stretch">
                 {pricing.map(item => (

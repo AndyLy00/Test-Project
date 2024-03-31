@@ -11,7 +11,7 @@ function Review() {
         { id: 3, name: 'Vladimir Svetchuk', job: "Student", avatar: avatar, review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu semper justo. Etiam venenatis cursus vulputate. Duis sollicitudin aliquam metus, vel ullamcorper arcu vulputateLorem ipsum dolor sit amet, consectetur  elit. " },
     ];
     return (
-            <div className="container type2" id="reviews">
+            <div className="my_container type2" id="reviews">
                 <div className="bigTitle align-self-center">Отзывы</div>
                 <div className="review__block">
                     <Carousel>
