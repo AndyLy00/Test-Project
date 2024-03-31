@@ -18,6 +18,27 @@ function Header() {
         });
     }, []);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const sections = document.querySelectorAll('.section');
+            const scrollPosition = window.scrollY + 200;
+
+            sections.forEach(section => {
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
+
+                if (scrollPosition >= top && scrollPosition < top + height) {
+                    setNavActive(section.id);
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div className={`header ${scrollPosition}`}>
             <div className="headerNav w-100 d-flex align-items-center gap-4" style={{maxWidth: 1600}}>
@@ -34,7 +55,7 @@ function Header() {
                     <div className="line">/</div>
                     <div className={`nav__button ${langActive === "fr" ? "nav__button--active" : ""}`} onClick={() => setLangActive("fr")}>Fr</div>
                 </div>
-                <img src={menu} className="mobileButton"/>
+                <img alt="" src={menu} className="mobileButton"/>
             </div>
         </div>
     );
