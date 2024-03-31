@@ -4,10 +4,6 @@ import BlogBlock from "../elements/BlogBlock";
 import blog1 from "../assets/blog1.jpg";
 import blog2 from "../assets/blog2.jpg";
 import blog3 from "../assets/blog3.jpg";
-import img1 from "../assets/price1.jpg";
-import img2 from "../assets/price2.jpg";
-import img3 from "../assets/price3.jpg";
-
 function Blog() {
     const blogs = [
         {
@@ -35,9 +31,9 @@ function Blog() {
             image: blog3
         },
     ];
-    const [circleActive, setCircleActive] = useState("1");
+    const [circleActive, setCircleActive] = useState(1);
     return (
-        <div className="my_container type1" id="blog">
+        <div className="my_container type1 section" id="blog">
             <div className="bigTitle align-self-center">Блог</div>
             <div className="blog__block d-flex justify-content-between gap-4 align-items-stretch">
                 {blogs.map(item => (

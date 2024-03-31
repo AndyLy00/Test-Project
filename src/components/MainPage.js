@@ -1,6 +1,5 @@
 import React from 'react';
 import "./MainPage.scss";
-import back from "../assets/mainpageBackground.svg"
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import lang from '../assets/eng.svg';
@@ -13,7 +12,7 @@ import waves from '../assets/mainpageLine.svg';
 
 function MainPage() {
     return (
-        <div className="mainPage d-flex" id="home">
+        <div className="mainPage d-flex section" id="home">
             <div className="mainPage__text d-flex justify-content-center align-items-center">
                 <div className="textPosition">
                     <img alt="" src={logo} className="logo"/>

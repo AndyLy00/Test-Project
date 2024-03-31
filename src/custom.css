@@ -118,6 +118,14 @@
   rotate: 45deg;
 }
 
+#navbarScrollingDropdown {
+  background-image: url("assets/menu.svg") !important;
+  object-fit: cover !important;
+  font-size: 0 !important;
+  width: 25px !important;
+  height: 14px !important;
+}
+
 @media (max-width: 1090px) {
   .carousel-control-prev, .carousel-control-next {
     display: none !important;
