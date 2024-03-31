@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Blog.scss";
 import BlogBlock from "../elements/BlogBlock";
-import blog1 from "../assets/blog1.svg";
-import blog2 from "../assets/blog2.svg";
-import blog3 from "../assets/blog3.svg";
+import blog1 from "../assets/blog1.jpg";
+import blog2 from "../assets/blog2.jpg";
+import blog3 from "../assets/blog3.jpg";
 
 function Blog() {
     return (

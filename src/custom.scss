@@ -11,6 +11,7 @@ $theme-colors: (
 .btn-primary {
   color: white !important;
   padding: 30px !important;
+  border-radius: 15px !important;
 }
 
 .btn-outline-primary:hover {
@@ -48,9 +49,6 @@ $theme-colors: (
 
 .newBackground {
   background-color: $my-white;
-}
-
-.carousel {
 }
 
 .carousel-indicators {
@@ -137,6 +135,16 @@ $theme-colors: (
   .accordion-item button {
     font-size: 18px !important;
     font-weight: 400 !important;
+  }
+}
+@media (max-width: 1450px) {
+  .btn-primary {
+    padding: 20px !important;
+    font-size: 22px !important;
+  }
+  .form-control {
+    font-size: 22px !important;
+    padding: 20px !important;
   }
 }
 

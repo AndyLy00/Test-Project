@@ -15,20 +15,20 @@ const PricingBlock = ({
                       }) => {
     return (
         <div className="pricingBlock" style={{backgroundColor: color}}>
-            <img src={img} className="pricingBlock__image"/>
+            <img alt="" src={img} className="pricingBlock__image"/>
             <div className="pricingBlock__info">
                 <div className="pricingBlock__title">{title}</div>
                 <div className="pricingBlock__text">
                     <div className="pricingBlock__element">
-                        <img src={verify}/>
+                        <img alt="" src={verify}/>
                         <div>Количество студентов: {students}</div>
                     </div>
                     <div className="pricingBlock__element">
-                        <img src={verify}/>
+                        <img alt="" src={verify}/>
                         <div>Минут: {minutes}</div>
                     </div>
                     <div className="pricingBlock__element">
-                        <img src={verify}/>
+                        <img alt="" src={verify}/>
                         <div>Уроков в неделю: {lessons}</div>
                     </div>
                 </div>

@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./Review.scss";
-import arrow from "../assets/arrow.svg";
-import avatar from "../assets/avatar.svg";
+import avatar from "../assets/avatar.jpg";
 import message from "../assets/message2.png";
 import {Carousel} from "react-bootstrap";
 
@@ -19,7 +18,7 @@ function Review() {
                         {reviews.map(item => (
                             <Carousel.Item>
                                 <div className="review__info position-relative d-flex gap-4">
-                                    <img src={avatar} className="review__avatar"></img>
+                                    <img alt="" src={avatar} className="review__avatar"></img>
                                     <div className="bigTitle review__decoration--Mobile">"</div>
                                     <div className="review__text">
                                         <div className="name">{item.name}</div>
@@ -32,7 +31,7 @@ function Review() {
                         ))}
                     </Carousel>
                 </div>
-                <img className="message" src={message}/>
+                <img alt="" className="message" src={message}/>
             </div>
     );
 }

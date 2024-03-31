@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./Footer.scss";
 import Button from "react-bootstrap/Button";
 import shadow from "../assets/footerShadow.svg";
@@ -9,7 +9,7 @@ function Footer() {
             <div className="footer__top d-flex justify-content-center">
                 <div className="footer__info type1 d-flex justify-content-between w-100 gap-4">
                     <div className="footer__logo">
-                        <img src={logo}/>
+                        <img alt="" src={logo}/>
                     </div>
                     <div className="footer__text d-flex justify-content-end">
                         <div className="footer__position__text d-flex flex-column">
@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer__shadow">
-                <img src={shadow}/>
+                <img alt="" src={shadow}/>
             </div>
         </div>
     );

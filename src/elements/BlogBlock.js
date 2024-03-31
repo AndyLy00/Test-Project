@@ -10,7 +10,7 @@ const BlogBlock = ({
     const [circleActive, setCircleActive] = useState("1");
     return (
         <div className="blogBlock">
-            <img src={image}></img>
+            <img alt="" src={image}></img>
             <div className="blogBlock__info">
                 <div className="blogBlock__miniInfo d-flex justify-content-between">
                     <div className="blogBlock__type">{type}</div>

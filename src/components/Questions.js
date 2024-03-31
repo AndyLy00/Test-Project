@@ -1,5 +1,4 @@
 import "./Questions.scss";
-import QuestionElement from "../elements/QuestionElement";
 import {Accordion} from "react-bootstrap";
 import React from "react";
 

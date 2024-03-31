@@ -2,11 +2,11 @@
   border-radius: 25px;
   display: grid;
   justify-content: center;
-  align-items: center;
-  width: min-content;
+  max-width: 450px;
+  width: 100%;
 
   .pricingBlock__image {
-    width: 450px;
+    width: 100%;
     height: 340px;
     border-radius: 25px;
     object-fit: cover;
@@ -14,6 +14,7 @@
 
   .pricingBlock__info {
     padding: 30px 34px 60px 34px;
+    display: grid;
 
     .pricingBlock__title {
       font-size: 30px;
