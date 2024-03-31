@@ -15,18 +15,20 @@
 }
 
 .footer__logo {
+  background: none;
+}
+.footer__logo img {
   width: 100%;
   height: 100%;
   max-width: 460px;
   max-height: 460px;
-  background: none;
+  object-fit: contain;
 }
 
 .footer__shadow img {
   width: 100%;
   height: auto;
   background-color: #F0F6FF;
-  margin-top: -80px;
 }
 
 .footer__text {
@@ -36,7 +38,6 @@
 
 .footer__position__text {
   gap: 50px;
-  max-height: 300px;
 }
 
 /*# sourceMappingURL=Footer.css.map */
